@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en" ng-app="gigMateApp">
+<head>
+	<meta charset="utf-8">
+	<title>Song Structure</title>
+	<link rel="stylesheet" href="css/css.css">
+	<script src="js/3rdparty/jquery/jquery-2.1.3.min.js"></script>
+	<script src="js/3rdparty/angular/angular.js"></script>
+	<script src="js/controllers.js"></script>
+</head>
+
+<body ng-controller="GigMateCtrl">
+	<div id="mainWrapper">
+		<div id="header">{{getCurrentSetList().title}} ({{getSetlistDurationMinsSecs(getCurrentSetList())}}) > {{currentSong + 1}}. {{getCurrentSong().title}} | ({{getSongDurationMinsSecs(getCurrentSong())}}) {{getCurrentSong().bpm}} BPM</div>
+		<div id="mainPartsWrapper">
+			<div id="partsWrapper" style="width: {{getCurrentSongWidth()}}px;">
+				<div 
+				class="songPartWrapper" 
+				ng-repeat="part in getCurrentSong().parts" 
+				style="width: {{getBeatsInSongPart(part) * getBeatWidth()}}px; background-image: url('{{getBgImageForSongPart(part)}}'); background-color: {{getColorForSongPart($index)}};">
+					<div class="songPartInner"><span class="songName">{{part.name}}</span></div>
+					<div 
+					class="barWrapper" 
+					ng-repeat="bar in getArray(part.bars)" 
+					style="width: {{getBeatsInSongPart(part) * getBeatWidth() / part.bars}}px;"></div>
+				</div>
+			</div>
+		</div>
+		<div id="partsDetailsWrapper">
+			<div id="currentPartWrapper">
+				<p class="currentNextTitle">Current<br/>{{getCurrentPartName()}}</p>
+				<span class="currentNextDescription">{{getCurrentPartDescription()}}</span>
+			</div>
+			<div id="nextPartWrapper">
+				<p class="currentNextTitle">Next<br/>{{getNextPartName()}}</p>
+				<span class="currentNextDescription">{{getNextPartDescription()}}</span>
+			</div>
+		</div>
+		<br class="clearBoth">
+		
+		<div id="footer">
+			<div id="previousBtn" ng-click="prevSong()">< Previous Song</div>
+			<div id="startBtn" ng-click="startSong()">START</div>
+			<div id="nextBtn" ng-click="nextSong()">Next Song ></div>
+		</div>
+	</div>
+	<!--<script src="js/general.js"></script>-->
+</body>
+</html>

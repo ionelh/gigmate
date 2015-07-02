@@ -1,0 +1,143 @@
+html {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #666666;
+	font-family: "Arial";
+	height: 100%;
+	color: #DBDBDB;
+}
+
+#mainWrapper {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+#header {
+	font-size: 28px;
+	padding: 10px;
+}
+
+.songPartWrapper {
+	float: left;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+
+.barWrapper {
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	background: url("../img/barSeparator.png") repeat-y;
+}
+
+.songPartInner {
+	position: absolute;
+}
+
+#mainPartsWrapper {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	background-color: #333333;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#partsWrapper {
+	height: 100%;
+	/*background-image: url("../img/beat.png");*/
+	/*width: 5000px;*/
+}
+
+.half {
+	float: left;
+	width: 50%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.songName {
+	color: #FFFFFF;
+	font-size: 22px;
+}
+
+#partsDetailsWrapper {
+	margin-top: 1px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#currentPartWrapper {
+	float: left;
+	width: 49%;
+	text-align: right;
+}
+
+#nextPartWrapper {
+	float: right;
+	width: 49%;
+}
+
+#partsDetailsWrapper p.currentNextTitle {
+	padding: 0px;
+	margin: 0px;
+	font-size: 32px;
+}
+
+.currentNextDescription{
+	font-size: 28px;
+}
+
+
+
+
+/* FOOTER */
+#footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 150px;
+	background-color: #222222;
+	font-size: 32px;
+	text-align: center;
+	line-height: 150px;
+	color: ;
+}
+
+#previousBtn, #nextBtn {
+	cursor: pointer;
+	width: 33%;
+	float: left;
+	height: 100%;
+	background-color: #444444;
+}
+
+#startBtn {
+	cursor: pointer;
+	width: 34%;
+	float: left;
+	height: 100%;
+	background-color: #222222;
+}
+
+#previousBtn:hover, #nextBtn:hover, #startBtn:hover {
+	color: #999999;
+}
