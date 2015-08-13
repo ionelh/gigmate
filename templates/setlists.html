@@ -1,0 +1,37 @@
+<div id="glassPane" ng-show="loading">
+  <img src="img/spinner.gif" class="ajax-loader"/>
+</div>
+<div id="mainWrapper">
+  <div id="header">{{getCurrentSetList().title}} ({{getSetlistDurationMinsSecs(getCurrentSetList())}}) > {{currentSong + 1}}. {{getCurrentSong().title}} | ({{getSongDurationMinsSecs(getCurrentSong())}}) {{getCurrentSong().bpm}} BPM</div>
+  <div id="mainPartsWrapper">
+    <div id="partsWrapper" style="width: {{getCurrentSongWidth()}}px;">
+      <div
+      class="songPartWrapper"
+      ng-repeat="part in getCurrentSong().parts"
+      style="width: {{getBeatsInSongPart(part) * getBeatWidth()}}px; background-image: url('{{getBgImageForSongPart(part)}}'); background-color: {{getColorForSongPart($index)}};">
+        <div class="songPartInner"><span class="songName">{{part.name}}</span></div>
+        <div
+        class="barWrapper"
+        ng-repeat="bar in getArray(part.bars)"
+        style="width: {{getBeatsInSongPart(part) * getBeatWidth() / part.bars}}px;"></div>
+      </div>
+    </div>
+  </div>
+  <div id="partsDetailsWrapper">
+    <div id="currentPartWrapper">
+      <p class="currentNextTitle">Current<br/>{{getCurrentPartName()}}</p>
+      <span class="currentNextDescription">{{getCurrentPartDescription()}}</span>
+    </div>
+    <div id="nextPartWrapper">
+      <p class="currentNextTitle">Next<br/>{{getNextPartName()}}</p>
+      <span class="currentNextDescription">{{getNextPartDescription()}}</span>
+    </div>
+  </div>
+  <br class="clearBoth">
+
+  <div id="footer">
+    <div id="previousBtn" ng-click="prevSong()">< Previous Song</div>
+    <div id="startBtn" ng-click="startSong()">START</div>
+    <div id="nextBtn" ng-click="nextSong()">Next Song ></div>
+  </div>
+</div>

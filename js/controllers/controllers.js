@@ -1,7 +1,6 @@
 (function () {
-	angular
-	.module('gigMateApp')
-	.controller('GigMateCtrl', ['$scope', '$timeout', '$http', '$rootScope', 'SetlistsService', function($scope, $timeout, $http, $rootScope, SetlistsService) {
+
+	function GigMateCtrl($scope, $timeout, $http, $rootScope, SetlistsService) {
 		// TODO Improve dirty checking, angular $digest
 		// TODO - when pressing Space or start multiple times, unexpected behaviour occurs
 		// TODO - when pressing next song on the last song (while the song is playing) of the setlist it goes to the same some song, from the beginning.
@@ -282,5 +281,9 @@
 		});
 
 		$scope.init();
-	}]);
+	}
+
+	angular
+	.module('gigMateApp')
+	.controller('GigMateCtrl', ['$scope', '$timeout', '$http', '$rootScope', 'SetlistsService', GigMateCtrl]);
 })();

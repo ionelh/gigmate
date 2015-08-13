@@ -1,7 +1,5 @@
 (function() {
-  angular
-  .module('gigMateApp')
-  .service('SetlistsService', ['$q', '$rootScope', '$http', function($q, $rootScope, $http) {
+  function SetlistsService($q, $rootScope, $http) {
     // doesn't angular do this and return automatically, meaning that this is not needed?
     // doing this and not doing it is the difference between a 'service' service and a 'factory' service, right? Look that up, I picked it up in an article.
     var self = this;
@@ -23,5 +21,9 @@
     }
 
     //return self;
-  }]);
+  }
+
+  angular
+  .module('gigMateApp')
+  .service('SetlistsService', ['$q', '$rootScope', '$http', SetlistsService]);
 })();

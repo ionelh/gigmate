@@ -1,6 +1,7 @@
 html {
 	margin: 0px;
 	padding: 0px;
+	/* TODO Change to min-height? */
 	height: 100%;
 }
 
@@ -9,11 +10,20 @@ body {
 	padding: 0px;
 	background: #666666;
 	font-family: "Arial";
+	/* TODO Change to min-height? */
 	height: 100%;
 	color: #DBDBDB;
+	min-height: 100%;
+}
+
+#viewWrapper {
+	/* TODO Change to min-height? */
+	height: 100%;
+	width: 100%;
 }
 
 #mainWrapper {
+	/* TODO Change to min-height? */
 	height: 100%;
 	width: 100%;
 	position: relative;
