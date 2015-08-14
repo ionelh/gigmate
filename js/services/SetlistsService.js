@@ -11,6 +11,8 @@
       $http.get($rootScope.restBaseUrl + 'setlists/setlists.json')
       .success(function(res, status, headers, config) {
         self.setlists = res;
+        // NOTE Uncomment this to better see .resolve in action ...
+        //setTimeout(defer.resolve, 2000, res);
         defer.resolve(res);
       })
       .error(function(err, status) {

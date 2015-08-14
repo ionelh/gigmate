@@ -1,30 +1,33 @@
 (function () {
 
-	function GigMateCtrl($scope, $timeout, $http, $rootScope, SetlistsService) {
+	var GigMateCtrl = function($scope, $timeout, $http, $rootScope, SetlistsService, SetLists) {
 		// TODO Improve dirty checking, angular $digest
 		// TODO - when pressing Space or start multiple times, unexpected behaviour occurs
 		// TODO - when pressing next song on the last song (while the song is playing) of the setlist it goes to the same some song, from the beginning.
 		// It should go to the next setlist, or do nothing? Or maybe it's ok this way. The same thing happens when pressing next setlist, while the last song of the last setlist is playing.
 		// TODO - when entering presentation mode in chrome on mac, can I NOT, it would be nice to exit presentation mode with escape.
 		// TODO - instead of animating DOM elements from a controller, create a directive that does that
-		// TODO - instead of making HTTP cals from a controller, create a custom service that does that
-		// TODO - the view calls function or vars from the scope which are async (setLists for example, which is loaded via ajax).
+		// TODO - Use a js doc standard (JSDoc?) to document the code properly
+		// TODO - Use bower for the front-end libraries / frameworks
+		// NOTE (DONE, currently using service) - instead of making HTTP cals from a controller, create a custom service that does that
+		// NOTE (DONE with .resolve) - the view calls function or vars from the scope which are async (setLists for example, which is loaded via ajax).
 			// Until the setlists are retrieved from the server, setLists is undefined and I get errors in the view ('Can't interpolate' in the console).
 			// When setLists gets populated, everything's fine, but I should treat this better. See this video:
 			// https://www.youtube.com/watch?v=9IBljKq4XrQ - the entire video is call, but at min 34 or so, this is explained (resolve)
-			// NOTE
-			// Instead of having the massive object on the scope and manipulating that from the markup, the object (setLists) is a local var
-			// and have functions like getCurrentSetList on the scope that return references of what's needed by the markup.
-			// Or is that like having the object itself on the scope?
+		// NOTE
+		// Instead of having the massive object on the scope and manipulating that from the markup, the object (setLists) is a local var
+		// and have functions like getCurrentSetList on the scope that return references of what's needed by the markup.
+		// Or is that like having the object itself on the scope?
 
-		$scope.loading = true;
+		// TODO - To remove and implement a proper spinner mechanism now that I've implemented .resolve
+		$scope.loading = false;
 		$scope.currentSong = 0;
 		$scope.currentSetlist = 0;
 		$scope.currentSongPart = 0;
 
 		console.log('%c $rootScope.restBaseUrl: ' + $rootScope.restBaseUrl, 'background: rgb(0,0,256)');
 
-		var songPartBackgrounds = [
+		var songPartBackgrounds = [ // bg colors for song parts
 			"rgba(150, 100, 50, .5)",
 			"rgba(50, 150, 100, .5)",
 			"rgba(100, 50, 150, .5)",
@@ -34,26 +37,9 @@
 		],
 			currentSongPartColor = 0,
 			beatWidth = 20,
-			setLists,
+			// NOTE This is not a variable on scope, and it still works correctly with .resolve ... nice!
+			setLists = SetLists,
 			songPartTimeoutPromise;
-
-		$scope.init = function() {
-			$scope.loadSetLists();
-		}
-
-		$scope.loadSetLists = function() {
-			// SetlistsService.getAllSetLists() returns a promise
-			SetlistsService.getAllSetLists()
-			.then(function(res) {
-				// success code ...
-				$scope.loading = false;
-				setLists = res;
-				console.log('%c res: ' + res, 'background: rgb(0,0,256)');
-			}, function(err) {
-				// error code ...
-				$scope.loading = false;
-			});
-		}
 
 		// returns a reference to the current setlist
 		$scope.getCurrentSetList = function () {
@@ -279,11 +265,40 @@
 				default: return;
 			}
 		});
+	}
 
-		$scope.init();
+	/*
+	The 'resolve' object. It's used to get all the async data that the controller needs, stuff like ajax requests.
+	It avoids errors and overhead in the controller logic because the async isn't yet available.
+	The controller doesn't load until this gets resolved.
+	*/
+	GigMateCtrl.resolveAsyncStuff = {
+		// this is injected as a dependency into the controller
+		SetLists: [
+			// injecting the service dependency
+			'SetlistsService',
+			function(SetlistsService) {
+				return SetlistsService.getAllSetLists()
+				.then(function(response) {
+					return response;
+				}, function(err) {
+					// TODO Handle error case here ...
+				});
+			}
+		]
 	}
 
 	angular
 	.module('gigMateApp')
-	.controller('GigMateCtrl', ['$scope', '$timeout', '$http', '$rootScope', 'SetlistsService', GigMateCtrl]);
+	.controller('GigMateCtrl', ['$scope', '$timeout', '$http', '$rootScope', 'SetlistsService', 'SetLists', GigMateCtrl])
+	.config(function($routeProvider) {
+		$routeProvider
+		.when('/setlists', {
+			templateUrl: 'templates/setlists.html',
+			// NOTE - read about controllerAs
+			//controllerAs: 'GigMateCtrl',
+			controller: 'GigMateCtrl',
+			resolve: GigMateCtrl.resolveAsyncStuff
+		});
+	});
 })();

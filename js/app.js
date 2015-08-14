@@ -19,10 +19,6 @@
         template: '<h1>This is the template for /foo</h1>',
         controller: 'FooCtrl'
       })
-      .when('/setlists', {
-        templateUrl: 'templates/setlists.html',
-        controller: 'GigMateCtrl'
-      })
       .otherwise({
         redirectTo: '/setlists'
       })
