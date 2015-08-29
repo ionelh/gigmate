@@ -13,3 +13,9 @@ in each playlist.
 It's a bit hard to explain how it works, but if you're an amateur musician like, you should figure it out :)
 
 I'll soon make a proper UI to edit the song structures, save them, etc., so stay tuned.
+
+# Development
+* Before you start, make sure you have git, NodeJS and NPM installed and configured
+* git clone https://github.com/ionelh/gigmate
+
+# Build for production
