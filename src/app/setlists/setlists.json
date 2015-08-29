@@ -215,7 +215,7 @@
             "name": "CHORUS", "description": "HH and Tambourine", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
           },
           {
-            "name": "BRIDGE - RAMA", "description": "HH and Tambourine", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+            "name": "BRIDGE - RAMA", "description": "HH and Tambourine", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 12
           },
           {
             "name": "BRIDGE - SNARE", "description": "HH and Tambourine", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
@@ -258,6 +258,9 @@
           },
           {
             "name": "VERSE", "description": "HH, Snare, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "OUTRO", "description": "Ride, wash", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 28
           }
         ]
       },
@@ -272,16 +275,13 @@
             "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
           },
           {
-            "name": "GUITAR INTRO", "description": "No drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 2
+            "name": "GUITAR INTRO", "description": "No drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
           },
           {
-            "name": "CHORUS", "description": "HH, Rim", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+            "name": "CHORUS", "description": "Closed HH, Snare", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
           },
           {
             "name": "VERSE", "description": "HH, Rim", "subdivisionsPerBar": 13, "subdivision": 4, "bars": 2
-          },
-          {
-            "name": "STOP", "description": "HH, Rim", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
           },
           {
             "name": "CHORUS", "description": "HH, Rim", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
@@ -297,6 +297,120 @@
           },
           {
             "name": "BRIDGE", "description": "HH, Rim", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          }
+        ]
+      },
+      {
+        "title": "The Spell",
+        "bpm": 120,
+        "parts": [
+          {
+            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "INTRO - NO DRUMS", "description": "Vocals + guitar only", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 20
+          },
+          {
+            "name": "BRIDGE", "description": "BRIDGE", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "VERSE", "description": "Verse", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "BRIDGE", "description": "Bridge", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "NO DRUMS", "description": "No Drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "CHORUS", "description": "Chorus", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "NO DRUMS", "description": "No drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 12
+          },
+          {
+            "name": "BRIDGE", "description": "Bridge", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "NO DRUMS", "description": "No drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "CHORUS", "description": "Chorus", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 32
+          }
+        ]
+      },
+      {
+        "title": "Vertigo (TAMBURINA)",
+        "bpm": 125,
+        "parts": [
+          {
+            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "INTRO GUITAR - NO DRUMS", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
+          },
+          {
+            "name": "CHORUS", "description": "Open HH, Snare, double snare on 4", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "VERSE", "description": "RIM", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "VERSE VARIATION", "description": "SNARE - double snare on 4", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
+          },
+          {
+            "name": "VERSE / INSTRUMENTAL", "description": "RIM", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "BRIDGE", "description": "SNARE - B--S--S-|B-S-B-S-", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "CHORUS", "description": "Open HH, Snare, double snare on 4", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "BRIDGE - NO DRUMS", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
+          },
+          {
+            "name": "VERSE VARIATION", "description": "SNARE - double snare on 4", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
+          },
+          {
+            "name": "BRIDGE", "description": "SNARE - B--S--S-|B-S-B-S-", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "CHORUS", "description": "Open HH, Snare, double snare on 4, no crash at the end", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          }
+        ]
+      },
+      {
+        "title": "Shaking Mind",
+        "bpm": 133,
+        "parts": [
+          {
+            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "INTRO - NO DRUMS", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 24
+          },
+          {
+            "name": "CHORUS", "description": "Open HH, Snare - B-SS--S-", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 18
+          },
+          {
+            "name": "BRIDGE - NO DRUMS", "description": "No drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "VOCALS - NO DRUMS", "description": "No drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 10
+          },
+          {
+            "name": "CHORUS", "description": "Open HH, Snare - B-SS--S-, no crash at the end", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 36
           }
         ]
       }

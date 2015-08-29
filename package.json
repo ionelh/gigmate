@@ -1,0 +1,35 @@
+{
+  "name": "gigmate",
+  "version": "0.0.1",
+  "description": "Create song structures to playalong to",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "~1.3.17",
+    "angular-route": "~1.3.17",
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.1",
+    "jquery": "~2.1.3",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ionelh/gigmate"
+  },
+  "keywords": [
+    "music",
+    "song",
+    "structure",
+    "playalong",
+    "gigmate"
+  ],
+  "author": "Ionel Hindorean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ionelh/gigmate/issues"
+  },
+  "homepage": "https://github.com/ionelh/gigmate"
+}
