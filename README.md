@@ -16,6 +16,10 @@ I'll soon make a proper UI to edit the song structures, save them, etc., so stay
 
 ## Development
 * Before you start, make sure you have git, NodeJS and NPM installed and configured
+* install grunt-cli globally
+```
+npm install -g grunt-cli
+```
 * clone the repo
 ```
 $ git clone https://github.com/ionelh/gigmate
