@@ -16,26 +16,26 @@ I'll soon make a proper UI to edit the song structures, save them, etc., so stay
 
 ## Development
 * Before you start, make sure you have git, NodeJS and NPM installed and configured
-* install grunt-cli globally
+* install grunt-cli globally:
 ```
 npm install -g grunt-cli
 ```
-* clone the repo
+* clone the repo:
 ```
 $ git clone https://github.com/ionelh/gigmate
 ```
-* cd to the gigmate folder
+* cd to the gigmate folder:
 ```
 $ cd gigmate/
 ```
-* run npm install to create the node_modules folder and install dependencies
+* run npm install to create the node_modules folder and install dependencies:
 ```
 $ npm install
 ```
-* run the grunt command which creates the build folder
+* run the grunt command that builds the project and creates the build folder:
 ```
-$ grunt copy
+$ grunt
 ```
-* serve gigmate/build/src/app/ in your preferred local server
+* serve gigmate/build/ in your preferred local server
 
 ## Build for production
