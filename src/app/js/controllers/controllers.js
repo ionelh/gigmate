@@ -290,6 +290,7 @@
 
 	angular
 	.module('gigMateApp')
+	// TODO - I don't think I need SetlistsService as a dependency here, since I am using resolve; same goes for $http, so review this
 	.controller('GigMateCtrl', ['$scope', '$timeout', '$http', '$rootScope', 'SetlistsService', 'SetLists', GigMateCtrl])
 	.config(function($routeProvider) {
 		$routeProvider
