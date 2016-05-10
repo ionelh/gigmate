@@ -252,7 +252,7 @@
     ]
   },
   {
-    "title": "ToM - Cluj (Tube) - 21 Ian 2016",
+    "title": "ToM - Cluj (Fabrica de pensule) - 21 Aprilie 2016",
     "songs": [
       {
         "title": "Andromeda",
@@ -414,45 +414,6 @@
         ]
       },
       {
-        "title": "Skin",
-        "bpm": 86,
-        "parts": [
-          {
-            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 2, "subdivision": 4, "bars": 1
-          },
-          {
-            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
-          },
-          {
-            "name": "PRE VERSE", "description": "HH, Rim, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
-          },
-          {
-            "name": "VERSE", "description": "HH, Snare, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          },
-          {
-            "name": "CHORUS", "description": "HH, Snare, 8ths, Syncopated", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          },
-          {
-            "name": "PRE VERSE", "description": "HH, Rim, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
-          },
-          {
-            "name": "VERSE", "description": "HH, Snare, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          },
-          {
-            "name": "CHORUS", "description": "HH, Snare, 8ths, Syncopated", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          },
-          {
-            "name": "PRE VERSE", "description": "HH, Rim, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
-          },
-          {
-            "name": "VERSE", "description": "HH, Snare, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          },
-          {
-            "name": "OUTRO", "description": "Ride, wash", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 32
-          }
-        ]
-      },
-      {
         "title": "Weightless (Emily)",
         "bpm": 118,
         "parts": [
@@ -486,47 +447,8 @@
         ]
       },
       {
-        "title": "Melting Clouds (cu final)",
-        "bpm": 120,
-        "parts": [
-          {
-            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 2, "subdivision": 4, "bars": 1
-          },
-          {
-            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
-          },
-          {
-            "name": "INTRO GUITAR", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
-          },
-          {
-            "name": "CHORUS", "description": "HH, 4th notes", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          },
-          {
-            "name": "CHORUS - INSTRUMENTAL", "description": "HH, 4th notes, also play open HH with left hand", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          },
-          {
-            "name": "VERSE", "description": "Ride, Rim, 8ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          },
-          {
-            "name": "CHORUS", "description": "HH, 4th notes", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          },
-          {
-            "name": "CHORUS - INSTRUMENTAL", "description": "HH, 4th notes", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          },
-          {
-            "name": "VERSE", "description": "RIDE, Rim, 8ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          },
-          {
-            "name": "CHORUS", "description": "HH, 4th notes", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          },
-          {
-            "name": "CHORUS - INSTRUMENTAL", "description": "HH, 4th notes", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          }
-        ]
-      },
-      {
         "title": "Lonely Ghost",
-        "bpm": 91,
+        "bpm": 93,
         "parts": [
           {
             "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 2, "subdivision": 4, "bars": 1
@@ -567,33 +489,6 @@
         ]
       },
       {
-        "title": "Brown eyes",
-        "bpm": 74,
-        "parts": [
-          {
-            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 2, "subdivision": 4, "bars": 1
-          },
-          {
-            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
-          },
-          {
-            "name": "INTRO GUITAR", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
-          },
-          {
-            "name": "VERSE 1", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 17
-          },
-          {
-            "name": "BRIDGE", "description": "HH Only", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
-          },
-          {
-            "name": "VERSE 2", "description": "HH, 8ths, Rim", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 17
-          },
-          {
-            "name": "CHORUS", "description": "Snare, open HH - pana la jumate accent pe patrime, de la jumate drept", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          }
-        ]
-      },
-      {
         "title": "Sunshine",
         "bpm": 74,
         "parts": [
@@ -603,8 +498,8 @@
         ]
       },
       {
-        "title": "The Spell",
-        "bpm": 120,
+        "title": "Vertigo",
+        "bpm": 125,
         "parts": [
           {
             "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 2, "subdivision": 4, "bars": 1
@@ -613,34 +508,37 @@
             "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
           },
           {
-            "name": "INTRO - NO DRUMS", "description": "Vocals + guitar only", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 20
+            "name": "INTRO GUITAR - NO DRUMS", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
           },
           {
-            "name": "BRIDGE", "description": "BRIDGE", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+            "name": "CHORUS", "description": "Open HH, Snare, follow the accents", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
           },
           {
-            "name": "VERSE", "description": "Verse", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+            "name": "VERSE", "description": "HH with the foot", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
           },
           {
-            "name": "BRIDGE", "description": "Bridge", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+            "name": "CHORUS", "description": "Open HH, Snare, follow the accents", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
           },
           {
-            "name": "NO DRUMS", "description": "No Drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+            "name": "VERSE", "description": "HH with the foot", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
           },
           {
-            "name": "CHORUS", "description": "Chorus", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+            "name": "BRIDGE", "description": "SNARE - B--S--S-|B-S-B-S-", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
           },
           {
-            "name": "NO DRUMS", "description": "No drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 12
+            "name": "CHORUS", "description": "Open HH, Snare, follow the accents", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
           },
           {
-            "name": "BRIDGE", "description": "Bridge", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+            "name": "VERSE VARIATION", "description": "HH with the foot", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
           },
           {
-            "name": "NO DRUMS", "description": "No drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+            "name": "VERSE", "description": "HH with the foot", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
           },
           {
-            "name": "CHORUS", "description": "Chorus", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 32
+            "name": "BRIDGE", "description": "SNARE - B--S--S-|B-S-B-S-", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "CHORUS", "description": "Open HH, Snare, follow the accents, choke crash at the end", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
           }
         ]
       },
@@ -711,6 +609,153 @@
         ]
       },
       {
+        "title": "Skin",
+        "bpm": 86,
+        "parts": [
+          {
+            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 2, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "PRE VERSE", "description": "HH, Rim, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
+          },
+          {
+            "name": "VERSE", "description": "HH, Snare, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "CHORUS", "description": "HH, Snare, 8ths, Syncopated", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "PRE VERSE", "description": "HH, Rim, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
+          },
+          {
+            "name": "VERSE", "description": "HH, Snare, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "CHORUS", "description": "HH, Snare, 8ths, Syncopated", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "PRE VERSE", "description": "HH, Rim, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
+          },
+          {
+            "name": "VERSE", "description": "HH, Snare, 16ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "OUTRO", "description": "Ride, wash", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 32
+          }
+        ]
+      },
+      {
+        "title": "Melting Clouds (cu final)",
+        "bpm": 120,
+        "parts": [
+          {
+            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 2, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "INTRO GUITAR", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
+          },
+          {
+            "name": "CHORUS", "description": "HH, 4th notes", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "CHORUS - INSTRUMENTAL", "description": "HH, 4th notes, also play open HH with left hand", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "VERSE", "description": "Ride, Rim, 8ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "CHORUS", "description": "HH, 4th notes", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "CHORUS - INSTRUMENTAL", "description": "HH, 4th notes", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "VERSE", "description": "RIDE, Rim, 8ths", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "CHORUS", "description": "HH, 4th notes", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "CHORUS - INSTRUMENTAL", "description": "HH, 4th notes", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          }
+        ]
+      },
+      {
+        "title": "Brown eyes",
+        "bpm": 74,
+        "parts": [
+          {
+            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 2, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "INTRO GUITAR", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
+          },
+          {
+            "name": "VERSE 1", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 17
+          },
+          {
+            "name": "BRIDGE", "description": "HH Only", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
+          },
+          {
+            "name": "VERSE 2", "description": "HH, 8ths, Rim", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 17
+          },
+          {
+            "name": "CHORUS", "description": "Snare, open HH - pana la jumate accent pe patrime, de la jumate drept", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          }
+        ]
+      },
+      {
+        "title": "The Spell",
+        "bpm": 120,
+        "parts": [
+          {
+            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 2, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
+          },
+          {
+            "name": "INTRO - NO DRUMS", "description": "Vocals + guitar only", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 20
+          },
+          {
+            "name": "BRIDGE", "description": "BRIDGE", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "VERSE", "description": "Verse", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "BRIDGE", "description": "Bridge", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "NO DRUMS", "description": "No Drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "CHORUS", "description": "Chorus", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
+          },
+          {
+            "name": "NO DRUMS", "description": "No drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 12
+          },
+          {
+            "name": "BRIDGE", "description": "Bridge", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "NO DRUMS", "description": "No drums", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
+          },
+          {
+            "name": "CHORUS", "description": "Chorus", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 32
+          }
+        ]
+      },
+      {
         "title": "Solitude",
         "bpm": 98,
         "parts": [
@@ -752,51 +797,6 @@
           },
           {
             "name": "OUTRO", "description": "Just open HH", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          }
-        ]
-      },
-      {
-        "title": "Vertigo",
-        "bpm": 125,
-        "parts": [
-          {
-            "name": "GET TEMPO", "description": "4 beats to get the tempo going", "subdivisionsPerBar": 2, "subdivision": 4, "bars": 1
-          },
-          {
-            "name": "COUNT IN THE BAND", "description": "4 beats to count in the band", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 1
-          },
-          {
-            "name": "INTRO GUITAR - NO DRUMS", "description": "NO DRUMS", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
-          },
-          {
-            "name": "CHORUS", "description": "Open HH, Snare, follow the accents", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          },
-          {
-            "name": "VERSE", "description": "HH with the foot", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          },
-          {
-            "name": "CHORUS", "description": "Open HH, Snare, follow the accents", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 4
-          },
-          {
-            "name": "VERSE", "description": "HH with the foot", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          },
-          {
-            "name": "BRIDGE", "description": "SNARE - B--S--S-|B-S-B-S-", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          },
-          {
-            "name": "CHORUS", "description": "Open HH, Snare, follow the accents", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          },
-          {
-            "name": "VERSE VARIATION", "description": "HH with the foot", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          },
-          {
-            "name": "VERSE", "description": "HH with the foot", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
-          },
-          {
-            "name": "BRIDGE", "description": "SNARE - B--S--S-|B-S-B-S-", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 8
-          },
-          {
-            "name": "CHORUS", "description": "Open HH, Snare, follow the accents, choke crash at the end", "subdivisionsPerBar": 4, "subdivision": 4, "bars": 16
           }
         ]
       },

@@ -16,7 +16,7 @@ I'll soon make a proper UI to edit the song structures, save them, etc., so stay
 
 ## Development
 * Before you start, make sure you have git, NodeJS and NPM installed and configured
-* install grunt-cli globally:
+* install grunt-cli globally (You might have to you use sudo):
 ```
 npm install -g grunt-cli
 ```
